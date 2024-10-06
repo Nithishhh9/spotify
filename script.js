@@ -75,7 +75,7 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
         masterPlay.classList.remove('fa-play-circle');
         masterPlay.classList.add('fa-pause-circle');
     })
-})
+}) 
 
 document.getElementById('next').addEventListener('click', ()=>{
     if(songIndex>=9){
